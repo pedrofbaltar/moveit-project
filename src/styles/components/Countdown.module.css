@@ -91,3 +91,13 @@
   cursor: not-allowed;
   border-bottom: 4px solid var(--green);
 }
+
+@media (max-width: 720px) {
+  .countdownContainer > div {
+    font-size: 7rem;
+  }
+
+  .countdownContainer > span {
+    font-size: 5.25rem;
+  }
+}

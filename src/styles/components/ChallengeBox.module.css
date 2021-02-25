@@ -108,3 +108,21 @@
 .challengeActive footer button:hover {
   filter: brightness(0.9);
 }
+
+@media (max-width: 720px) {
+  .challengeBoxContainer {
+    flex: 1;
+  }
+
+  .challengeActive main {
+    margin-top: 2rem;
+  }
+
+  .challengeActive main img {
+    width: 8rem;
+  }
+
+  .challengeActive footer {
+    margin-top: 2rem;
+  }
+}

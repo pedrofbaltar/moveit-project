@@ -1,10 +1,10 @@
-import { createContext, useState, ReactNode, useEffect, useContext } from 'react';
+import { createContext, useState, ReactNode, useEffect } from 'react';
 import Cookies from 'js-cookie';
 import challenges from "../../challenges.json";
 import { LevelUpModal } from '../components/LevelUpModal';
 
 interface Challenge {
-  type: 'body' | 'eye'; // pelo fato de ser apenas dois valores possiveis, podemso colocar dessa forma (ou x ou y)
+  type: 'body' | 'eye';
   description: string;
   amount: number;
 }
